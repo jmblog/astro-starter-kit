@@ -6,7 +6,7 @@ npm create astro@latest -- --template jmblog/astro-starter-kit
 
 ## Features
 
-These tools and integrations are included in this starter kit:
+The following tools and integrations are included in this starter kit:
 
 - ESLint, [`eslint-plugin-astro`](https://github.com/ota-meshi/eslint-plugin-astro) and [`eslint-plugin-jsx-a11y`](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) for linting your Astro code
 - Prettier and [`prettier-plugin-astro`](https://github.com/withastro/prettier-plugin-astro) for formatting your Astro code
