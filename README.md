@@ -6,7 +6,7 @@ npm create astro@latest -- --template jmblog/astro-starter-kit
 
 ## Features
 
-These tools and integrations are installed in this starter kit:
+These tools and integrations are included in this starter kit:
 
 - ESLint and [`eslint-plugin-astro`](https://github.com/ota-meshi/eslint-plugin-astro) for linting your Astro code
 - Prettier and [`prettier-plugin-astro`](https://github.com/withastro/prettier-plugin-astro) for formatting
@@ -43,7 +43,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`          | Starts local dev server at `localhost:3000`      |
 | `npm run build`        | Build your production site to `./dist/`          |
 | `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run lint`         | Run linting                                      |
+| `npm run lint`         | Run linters                                      |
 | `npm run fix`          | Fix problems reported by linters                 |
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
