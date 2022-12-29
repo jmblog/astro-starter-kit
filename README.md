@@ -11,9 +11,10 @@ These tools and integrations are included in this starter kit:
 - ESLint and [`eslint-plugin-astro`](https://github.com/ota-meshi/eslint-plugin-astro) for linting your Astro code
 - Prettier and [`prettier-plugin-astro`](https://github.com/withastro/prettier-plugin-astro) for formatting
 - Markuplint and [`@markuplint/astro-parser`](https://github.com/markuplint/markuplint/tree/dev/packages/@markuplint/astro-parser) for linting your markup
-- [`astro-compress`](https://github.com/astro-community/astro-compress) for compressing HTML, CSS, JavaScript output
 - [`@astrojs/sitemap`](https://docs.astro.build/en/guides/integrations-guide/sitemap/) for generating a sitemap
+- [`astro-compress`](https://github.com/astro-community/astro-compress) for compressing HTML, CSS, JavaScript output
 - [`astro-seo`](https://github.com/jonasmerlin/astro-seo) for making it easy to add SEO relevant tags
+- [`astro-purgecss`](https://github.com/codiume/orbit/tree/main/packages/astro-purgecss) for removing unused CSS
 
 ## 🚀 Project Structure
 
