@@ -13,6 +13,7 @@
     "lint:eslint": "eslint \"src/**/*.{js,ts,astro}\"",
     "lint:astro": "astro check",
     "lint:prettier": "prettier --check src",
+    "lint:markuplint": "markuplint \"src/**/*.astro\"",
     "fix": "run-p fix:*",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "fix:prettier": "prettier --write src"
