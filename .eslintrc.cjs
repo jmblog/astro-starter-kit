@@ -33,7 +33,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [],
+  plugins: ['unused-imports'],
   rules: {
     'import/order': [
       'warn',
@@ -44,5 +44,6 @@ module.exports = {
         alphabetize: { order: 'asc', caseInsensitive: true },
       },
     ],
+    'unused-imports/no-unused-imports': 'error',
   },
 };
