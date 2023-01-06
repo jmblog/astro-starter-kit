@@ -5,18 +5,21 @@ module.exports = {
     es2022: true,
   },
   extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:astro/recommended",
-    "plugin:astro/jsx-a11y-recommended",
+    'eslint:recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
+    'plugin:css-import-order/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:astro/recommended',
+    'plugin:astro/jsx-a11y-recommended',
   ],
   overrides: [
     {
-      files: ["*.astro"],
-      parser: "astro-eslint-parser",
+      files: ['*.astro'],
+      parser: 'astro-eslint-parser',
       parserOptions: {
-        parser: "@typescript-eslint/parser",
-        extraFileExtensions: [".astro"],
+        parser: '@typescript-eslint/parser',
+        extraFileExtensions: ['.astro'],
       },
     },
     {
@@ -27,9 +30,19 @@ module.exports = {
     },
   ],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   plugins: [],
-  rules: {},
+  rules: {
+    'import/order': [
+      'warn',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling'], 'index', 'object', 'type'],
+        'newlines-between': 'never',
+        pathGroupsExcludedImportTypes: ['builtin'],
+        alphabetize: { order: 'asc', caseInsensitive: true },
+      },
+    ],
+  },
 };
