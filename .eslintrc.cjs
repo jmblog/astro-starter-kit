@@ -6,8 +6,6 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
     'plugin:css-import-order/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:astro/recommended',
@@ -33,7 +31,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['unused-imports'],
+  plugins: ['import', 'unused-imports'],
   rules: {
     'import/order': [
       'warn',

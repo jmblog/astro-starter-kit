@@ -1,9 +1,8 @@
-import { defineConfig } from 'astro/config';
-
 // https://astro.build/config
 import sitemap from '@astrojs/sitemap';
 import compress from 'astro-compress';
 import purgecss from 'astro-purgecss';
+import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   // Your final, deployed URL
