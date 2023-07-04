@@ -46,6 +46,6 @@
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-recess-order": "^4.0.0",
-    "stylelint-config-standard": "^33.0.0"
+    "stylelint-config-standard": "^34.0.0"
   }
 }
