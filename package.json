@@ -21,7 +21,7 @@
     "fix:stylelint": "npm run lint:stylelint -- --fix"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^2.0.0",
+    "@astrojs/sitemap": "^1.4.0",
     "astro": "^2.0.0",
     "astro-compress": "^1.1.24",
     "astro-purgecss": "^2.0.0",
